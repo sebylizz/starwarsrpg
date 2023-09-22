@@ -15,11 +15,9 @@ function remove(){
 function newCol(){
     if(this.style.backgroundColor == "black"){
         this.style.backgroundColor = "white";
-        this.style.border = "2px solid black";
     }
     else{
         this.style.backgroundColor = "black";
-        this.style.border = "2px solid white";
     }
 }
 

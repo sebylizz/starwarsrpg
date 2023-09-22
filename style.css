@@ -18,21 +18,22 @@ h1{
 
 .container {
     /*box-shadow: -4px 4px gray;*/
-    width: 60%;
+    width: 524px;
     /*border: 3px solid peachpuff;*/
-    margin: 10px auto;
+    margin: 50px auto;
     display: flex;
     gap: 0px;
     flex-wrap: wrap;
 }
 
 .item {
-    border: 2px solid black;
+    border: 2px solid gray;
     margin: 12px;
     height: 60px;
     width: 60px;
     background-color: white;
     border-radius: 100%;
+    transition: background-color 1s;
 }
 
 .buttons{
