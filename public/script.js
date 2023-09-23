@@ -20,10 +20,3 @@ function newCol(){
         this.style.backgroundColor = "black";
     }
 }
-
-/*function reset(){
-    let arr = main.querySelectorAll("div");
-    for (i = 0; i < arr.length; i++){
-        arr[i].style.backgroundColor = "white";
-    }
-}*/
