@@ -1,5 +1,5 @@
 const main = document.getElementById("main");
-const ws = new WebSocket('ws://starwarsrpg.onrender.com:6969')
+const ws = new WebSocket('wss://starwarsrpg.onrender.com:6969')
 
 ws.addEventListener('message', (event) => {
     const objectPool = JSON.parse(event.data);
