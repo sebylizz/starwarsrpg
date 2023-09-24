@@ -13,7 +13,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 wss.on('connection', (ws) => {
     ws.send(JSON.stringify(pool));
 
- 
     ws.on('message', (message) => {
         switch (message.toString()){
             case "remove":
