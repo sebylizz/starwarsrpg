@@ -11,7 +11,6 @@ function renderObjectPool(pool) {
     arr.forEach((object) => {
         object.remove();
     });
-    console.log(pool);
     pool.forEach((object) => {
         const item = document.createElement('div');
         item.classList.add("item");
